@@ -26,8 +26,8 @@ class Solution(object):
             carry = (x + y + carry) // 10  # 进位
             current.next = ListNode(z)  # 创建一个链表
             current = current.next  # 移动指针
-            if l1 : l1 = l1.next  # 移动指针
-            if l2 : l2 = l2.next  # 移动指针
+            if l1: l1 = l1.next  # 移动指针
+            if l2: l2 = l2.next  # 移动指针
         return result.next
 
 
